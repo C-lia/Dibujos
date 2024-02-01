@@ -57,36 +57,40 @@ body {
   width: 50px;
   background-image: linear-gradient(
     rgba(0, 0, 0),
-    25%,
-    rgb(93, 199, 169),
-    rgb(24, 95, 117)
+    20%,
+    rgb(24, 95, 117),
+    rgb(93, 199, 169)
   );
+
   border-radius: 50%;
   border: 3px solid;
   box-sizing: border-box;
   position: relative;
-  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.4) inset;
 
   &::before {
     position: absolute;
     content: '';
     box-sizing: border-box;
-    height: 55px;
-    width: 35px;
-    left: 5px;
+    height: 60px;
+    width: 40px;
+    left: 2px;
     border-radius: 50%;
     background-color: black;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0);
   }
 
   &::after {
     position: absolute;
     content: '';
     box-sizing: border-box;
-    height: 50px;
+    height: 40px;
     width: 30px;
-    background-color: white;
+    left: 7px;
+    top: 2px;
+    background-color: rgba(255, 255, 255);
     border-radius: 50%;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.4) inset;
   }
 }
 
