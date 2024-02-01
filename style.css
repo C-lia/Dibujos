@@ -4,15 +4,6 @@
   --kirby-mofletes-color-rgb: 234, 106, 118;
 }
 
-* {
-  margin: 0;
-}
-
-body {
-  height: 500px;
-  width: 100%;
-}
-
 .kirby {
   /* Tamaño */
   height: 500px;
