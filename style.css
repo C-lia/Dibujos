@@ -36,13 +36,11 @@ body {
   /* Tamaño */
   height: 300px;
   width: 300px;
+  border-radius: 50%;
+  border: 5px solid black;
 
   /* Fondo */
   background-color: rgb(var(--kirby-main-color-rgb));
-
-  /* Borde */
-  border-radius: 50%;
-  border: 5px solid black;
 
   /* Posición */
   grid-area: cabeza;
@@ -59,6 +57,8 @@ body {
   height: 100px;
   width: 50px;
   box-sizing: border-box;
+  border-radius: 50%;
+  border: 3px solid;
 
   /* Fondo */
   background-image: linear-gradient(
@@ -67,10 +67,6 @@ body {
     rgb(24, 95, 117),
     rgb(93, 199, 169)
   );
-
-  /* Borde y sombra */
-  border-radius: 50%;
-  border: 3px solid;
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.4) inset;
 
   /* Posición */
@@ -80,13 +76,11 @@ body {
     /* Tamaño */
     height: 60px;
     width: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0);
 
     /* Fondo */
     background-color: black;
-
-    /* Borde y sombra */
-    border-radius: 50%;
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0);
 
     /* Posición */
     position: absolute;
@@ -99,12 +93,10 @@ body {
     /* Tamaño */
     height: 40px;
     width: 30px;
+    border-radius: 50%;
 
     /* Fondo */
     background-color: rgba(255, 255, 255);
-
-    /* Borde y sombra */
-    border-radius: 50%;
     box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.4) inset;
 
     /* Posición */
@@ -150,13 +142,12 @@ body {
   /* Tamaño */
   height: 60px;
   width: 50px;
+  border-radius: 5px 5px 25px 25px;
+  border: 3px solid;
 
   /* Fondo */
   background-color: rgb(0, 0, 0, 0.5);
-
-  /* Borde */
-  border-radius: 5px 5px 25px 25px;
-  border: 3px solid;
+  box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, 0.5) inset;
 
   /* Posición */
   grid-area: boca;
@@ -168,13 +159,11 @@ body {
     height: 34px;
     width: 45px;
     box-sizing: border-box;
+    border-radius: 50%;
+    border: 3px solid;
 
     /* Fondo */
     background-color: rgb(var(--kirby-mofletes-color-rgb));
-
-    /* Borde */
-    border-radius: 50%;
-    border: 3px solid;
 
     /* posición */
     position: absolute;
@@ -230,12 +219,10 @@ body {
     /* Tamaño */
     height: 40px;
     width: 30px;
+    border-radius: 50%;
 
     /* Fondo */
     background-color: rgb(251, 99, 111);
-
-    /* Borde */
-    border-radius: 50%;
 
     /* Posición */
     position: absolute;
@@ -253,10 +240,10 @@ body {
     /* Tamaño */
     height: 40px;
     width: 30px;
-
-    /* Fondo y borde */
-    background-color: rgb(251, 99, 111);
     border-radius: 50%;
+
+    /* Fondo */
+    background-color: rgb(251, 99, 111);
 
     /* Posición */
     position: absolute;
