@@ -9,6 +9,7 @@
   height: 500px;
   width: 100%;
   box-sizing: border-box;
+  filter: drop-shadow(0px 0px 5px black);
 
   /* Posición */
   display: grid;
@@ -114,7 +115,6 @@
 
   /* Fondo */
   background-color: rgb(var(--kirby-mofletes-color-rgb), 0.8);
-
   /* Borde */
   border-radius: 50%;
 }
